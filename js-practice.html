@@ -8,6 +8,7 @@
 </head>
 <body>
   <script>
+    // JS Basics
     // This is a comment
     console.log("Let's do math");
 
@@ -37,6 +38,33 @@
     // Strings on my own
     let greeting = "My name is " + name;
     console.log(greeting);
+
+
+    // JS Functions
+    console.log("Using Functions");
+
+    function makeSquare(theNumb) {
+      let squared = theNumb * theNumb;
+      return squared;
+    }
+
+    let try01 = makeSquare(3);
+    console.log(try01);
+
+    console.log(makeSquare(5));
+
+    //Funtions on my own
+    function makeName(first, middle, last) {
+      let fullName = first + " " + middle + " " + last;
+      return fullName
+    }
+
+    let name01 = makeName("Wanda", "\"The Scarlet Witch\"", "Maximoff");
+    console.log(name01);
+    let name02 = makeName("Steve", "\"America's Ass\"", "Rogers");
+    console.log(name02);
+    console.log(makeName("Robert", "\"Beto\"", "O'Rourke"))
+
   </script>
 </body>
 </html>
